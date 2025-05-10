@@ -17,10 +17,6 @@ body {
     font-weight: bold;
 }
 
-.navbar a:hover {
-    color: #007bff;
-}
-
 .footer {
     text-align: center;
     border-top: 1px solid #dee2e6;
