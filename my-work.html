@@ -8,43 +8,53 @@
         <link href="styles.css" rel="stylesheet"/>
     </head>
     <body>
-        <div class="navbar">
-            <p>
-                <a class="m-2" href="index.html">About Me</a>
-                <a class="m-2" href="my-work.html">My Work</a>
-                <a class="m-2" href="my-blog.html">My Blog</a>
-            </p>
-        </div>
+        <header>
+            <div class="navbar">
+                <p>
+                    <a class="m-2" href="index.html">About Me</a>
+                    <a class="m-2" href="my-work.html">My Work</a>
+                    <a class="m-2" href="my-blog.html">My Blog</a>
+                </p>
+            </div>
+        </header>
+        
         <section class="m-3">
             <h1>My Work</h1>
-            
-            <!-- Project -->
-            <div class="featured-project mb-4">
-                <h2>Featured Project: Mobile App Development</h2>
-                <img src="project-screenshot.jpg" alt="Screenshot of my mobile app interface showing the main dashboard" class="img-fluid mb-3" style="max-width: 500px;">
-                <p>This was my major project for the Advanced Mobile Development course. I created a task management app that helps students organize their assignments and study schedules.</p>
-                <a href="project-presentation.pdf" class="btn btn-primary" download>Download Project Presentation</a>
-            </div>
-
-            <!-- Columns -->
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Research Papers</h2>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+            <main>
+                <h2> Things i've done </h2>
+                <div> 
+                        <ul>
+                            <li>I used <em>OpenGL</em> to make a custom shader with blinn-phong reflection</li>
+                            <li>I used <em>C and assembly</em> to make a low level memory management system</li>
+                            <li>I used <em>React</em> and <em>Vercel</em> to design a SAAS application</li>
+                        </ul>
                 </div>
-                <div class="col-md-6">
-                    <h2>Hobby Projects</h2>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
+                <h2> Other works </h2>
+                <a href="https://github.com/ppark22/ppark22.github.io">visit my github</a>
+                <table>
+                    <tr>
+                      <th style="width:300px">
+                        <h3>Project</h3>
+                      </th>
+                      <th style="width:500px">
+                        <h3>Description</h3>
+                      </th>
+                      <th style="padding-left: 100px;">
+                        <h3>Image</h3>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td><strong><p>Wordle Solver</p></strong></td>
+                      <td><p>I wrote a c++ algorithm that generally solves wordles in between 4-5 tries. It’s simple but it works</p></td>
+                      <td><img src="wordle.png" alt="Screenshot of NYT Wordle Interface" class="img-fluid mb-3" style="max-width: 300px;"></td>
+                    </tr>
+                    <tr>
+                      <td><strong><p>Graphics Engine</p></strong></td>
+                      <td>It’s currently work in progress, but I’ve been working on a Graphic Engine from scratch in my free time. My goal is to have it work with a custom physics engine to run interesting simulations.</td>
+                      <td><img src="graph.jpg" alt="Cool visualisation of a graoh" class="img-fluid mb-3" style="max-width: 300px;"></td>
+                    </tr>
+                </table>
+            </main>
         </section>
 
         <footer class="footer mt-5 p-3 bg-light">
